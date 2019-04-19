@@ -12,8 +12,8 @@ class CLRotateImageView: UIImageView {
 
     private let rotationAnimation: CABasicAnimation = CABasicAnimation.init(keyPath: "transform.rotation.z")
     private var isPause: Bool = false
-    private weak var fatherView: UIView!
-    
+    private var fatherView: UIView!
+//    weak
     init(frame: CGRect, superview: UIView) {
         super.init(frame: frame)
         image = UIImage.init(named: "icon_friend")

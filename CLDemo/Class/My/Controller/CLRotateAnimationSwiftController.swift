@@ -65,17 +65,17 @@ class CLRotateAnimationSwiftController: CLBaseViewController {
                 imageView.hiddenAnimating()
             }
             
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5) {
-                imageView.showAnimating()
-            }
+//            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5) {
+//                imageView.showAnimating()
+//            }
             
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 7) {
-                imageView.hiddenAnimating()
-            }
-            
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 9) {
-                imageView.showAnimating()
-            }
+//            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 7) {
+//                imageView.hiddenAnimating()
+//            }
+//
+//            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 9) {
+//                imageView.showAnimating()
+//            }
         }
     }
 }
